@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+1,1# -*- coding: utf-8 -*-
 """
 Created on Thu Feb  8 15:05:55 2018
 
@@ -53,7 +53,6 @@ class Environment:
     def draw_board(self, plot_number, fig, human=False):
 
         ax=fig.add_subplot(self.dim, self.dim, plot_number) 
-        
         for col in range(self.dim):
             for row in range (self.dim):
                 if self.board[col][row]==1:
@@ -392,7 +391,7 @@ if __name__ == "__main__":
     
     use_database = True
     learning=False
-    human_check=1
+    human_check=0
 
     if learning:
         epsilon = 0.2
@@ -430,7 +429,7 @@ if __name__ == "__main__":
 
     else:
         p2 = Human_player(-1)
-        episodes=1
+        episodes=2
         
     for i in range(hours): 
         start = datetime.now()
@@ -450,3 +449,8 @@ if __name__ == "__main__":
             human palyer
         both players acting as one?
 """
+
+
+
+
+
