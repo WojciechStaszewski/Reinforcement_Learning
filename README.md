@@ -12,6 +12,7 @@ Possible next steps:
 Use symmetry to minimize amount of board states i.e. force the AI to rotate the board so that there are only 3 possible starting positions.
 
 
+
 My_grid_world:
 
 General:
